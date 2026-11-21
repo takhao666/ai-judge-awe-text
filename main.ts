@@ -11,7 +11,7 @@ const TEXT =
   "The light you see tonight left its star before any of us were born. " +
   "Below it, snow settles on a lake no one is watching, flake after flake, " +
   "without a sound. Nothing here hurries. Nothing asks anything of you. " +
-  "It simply goes on, quiet and vast, and lets you be part of it.";
+  "It simply goes on, quiet and vast, long after tonight.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", TEXT, "utf8");
